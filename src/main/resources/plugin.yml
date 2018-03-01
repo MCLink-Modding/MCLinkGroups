@@ -1,0 +1,13 @@
+name: ${project.name}
+main: org.ppcis.MCLinkGroups.MCLinkGroups
+author: Brianetta
+version: ${project.version}
+depend: [MCLink,Vault]
+commands:
+  mclinkgroups:
+    description: Configure MCLink groups
+    usage: |
+      /<command> reload
+permissions:
+  mclinkgroups.reload:
+    description: Reload the configuration from disk
